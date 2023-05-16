@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.placar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.palco{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 85vh;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#placar_btn{
+    display: flex;
+    align-items: center;
+}
+
+#btn_comecar{
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 100px;
+}
